@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vozes que cuidam</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="navbar-inner">
+            <img src="./img/imagem2_Blog-transformed.png" alt="Logo do Blog Vozes que cuidam" style="height: 60px;"> <!-- Adicionando a logo aqui -->
+            <h2 id="titulo">Vozes que cuidam</h2>
+            <ul id="nav-links">
+                <li><a href="#navbar">Início</a></li>
+                <li><a href="#sobre_nos">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <main id="post-container">
+            <article class="post">
+                <img src="img/post1.webp" alt="Cultura Negra e Autismo">
+                <h3 class="title"><a href="#">Entendendo o Autismo na Cultura Negra</a></h3>
+                <p class="description">
+                    A cultura negra possui aspectos únicos que podem influenciar a experiência do autismo...
+                </p>
+                <p class="author">Por: Grupo PI</p>
+                <a href="#">Ler mais</a>
+            </article>
+            <article class="post">
+                <img src="img/post2.webp" alt="Importância do Diálogo">
+                <h3 class="title"><a href="#">Por que é importante falar sobre isso?</a></h3>
+                <p class="description">
+                    Discutir a interseção entre autismo e cultura negra é essencial para promover um entendimento mais profundo e respeitoso...
+                </p>
+                <p class="author">Por: Grupo PI</p>
+                <a href="#">Ler mais</a>
+            </article>
+            <article class="post">
+                <img src="./img/post4.webp" alt="Eventos Culturais">
+                <h3 class="title"><a href="#">Eventos que Unem</a></h3>
+                <p class="description">
+                    Explorando eventos culturais que abrem portas para discussões sobre autismo dentro da comunidade negra...
+                </p>
+                <p class="author">Por: Grupo PI</p>
+                <a href="#">Ler mais</a>
+            </article>
+        </main>
+        <aside id="sidebar">
+            <section id="search-bar">
+                <h4>Busca</h4>
+                <form>
+                    <input type="text" placeholder="Pesquise no blog">
+                    <input type="submit" value="Buscar">
+                </form>
+            </section>
+            <section id="categories">
+                <h4>Categorias</h4>
+                <nav>
+                    <ul>
+                        <li><a href="#">Educação</a></li>
+                        <li><a href="#">Cultura Negra</a></li>
+                        <li><a href="#">Consciência</a></li>
+                        <li><a href="#">Saúde Mental</a></li>
+                        <li><a href="#">Eventos</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section id="tags">
+                <h4>Tags</h4>
+                <div id="tags-container">
+                    <a href="">Autismo</a>
+                    <a href="">Cultura</a>
+                    <a href="">Educação</a>
+                    <a href="">Diversidade</a>
+                    <a href="">Inclusão</a>
+                </div>
+            </section>
+            <section id="sobre_nos">
+                <h4>Sobre Nós</h4>
+                <div id="tags-container">
+                <p>No "Vozes que Cuidam", acreditamos que conhecer é o primeiro passo para respeitar. Por isso, convidamos você a se juntar a nós nesta jornada de descoberta e discussão. Juntos, podemos fazer a diferença e garantir que cada voz seja ouvida e valorizada.</p>
+                </div>
+            </section>
+        </aside>
+    </div>
+    
+    <div class="contact-form">
+        <h2 id="contato" class="contato">Contato</h2>
+        <h2>Envie uma mensagem</h2>
+        <form action="sua-url-de-envio" method="POST">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    
+    <footer id="footer">
+        <h2>Vozes que cuidam</h2>
+        <p>Autismo e Cultura Negra: Conhecer é Respeitar</p>
+        <p>2024, &copy; Vozes que cuidam</p>
+    </footer>
+</body>
+</html>
