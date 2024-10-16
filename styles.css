@@ -156,26 +156,7 @@ a:hover{
     padding: 0.5rem 0.7rem;
     border-radius: 0.3rem;
 }
-  
-/* Rodapé */
-#footer {
-    border-top: 2px solid #ddd;
-    padding: 3rem;
-    text-align: center;
-}
-  
-#footer h2,
-#footer p {
-    margin-bottom: 1rem;
-}
-  
-  /* Responsivo */
-@media (max-width: 450px) {
-    .container {
-      flex-wrap: wrap;
-    }
-}
-
+/* Formulário */
 .contact-form {
     width: 80%;
     max-width: 500px;
@@ -183,6 +164,7 @@ a:hover{
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
     background: #ccc;
+    border-radius: 1.5rem;
 }
 
 .contact-form h2 {
@@ -197,6 +179,7 @@ a:hover{
 .contact-form label {
     margin-bottom: 5px;
     font-weight: bold;
+    
 }
 
 .contact-form input[type="text"],
@@ -220,3 +203,28 @@ a:hover{
 .contact-form button:hover {
     background-color: #0056b3;
 }
+
+  
+/* Rodapé */
+#footer {
+    border-top: 2px solid #ddd;
+    padding: 3rem;
+    text-align: center;
+}
+  
+#footer h2,
+#footer p {
+    margin-bottom: 1rem;
+}
+
+#footer span{
+    color: #f79737;
+}
+  
+  /* Responsivo */
+@media (max-width: 450px) {
+    .container {
+      flex-wrap: wrap;
+    }
+}
+
